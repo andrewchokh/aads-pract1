@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pract 1</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+
 </head>
 <body>
+<main>
+    <div id="stackUI">
+        <h1 class="title">Welcome to Pract 1</h1>
+        <div>
+            <textarea id = "displayStack"></textarea>
+        </div>
 
+        <div>
+            <input id = "pushValue" value="2" />
+        </div>
+
+        <button onclick="_push()" > Push </button>
+        <button onclick="_pop()" > Pop </button>
+        <button onclick="_back()" > Back </button>
+        <button onclick="_size()" > Size </button>
+        <button onclick="_clear()" > Clear </button>
+        <button onclick="_exit()" > Exit </button>
+    </div>
+</main>
+<script src="./src/scripts/stack.js"></script>
 </body>
 </html>
